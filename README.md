@@ -28,18 +28,26 @@ The crux of this site is are the lessons. Provided are two examples. Each lesson
 
 Inside of `gatsby-config.js` be sure to fill out the `siteMetadata` fields, including `title`, `subtitle`, `description`, and `keywords`.
 
-## Azure Pipelines
-
-Azure has a free-for-open-source continuous integration platform called [Azure Pipelines](https://azure.microsoft.com/en-us/services/devops/pipelines/?WT.mc_id=gatsby-github-brholt). This project is already set up for it with the `azure-pipelines.yml`. Just add the project to Pipelines and it'll immediately correctly build the project. From there you'll have a build artifact that you can use to deploy to [Azure Static Sites](https://azure.microsoft.com/en-us/blog/azure-storage-static-web-hosting-public-preview/?WT.mc_id=gatsby-github-brholt) or [GitHub Pages](https://pages.github.com/).
-
 ## GitHub Pages
 
 If you do want to deploy to GitHub pages, make sure you add the name of the repo to the `pathPrefix` property in `gatsby-config.js` so that it will correctly make all the links.
 
+## GitHub Actions
+
+This site is ready to deployed to GitHub Pages out of the box with GitHub Actions. If you do not want to deploy this to GitHub Pages, delete the `.github` directory.
+
+If you do want to deploy this to GitHub Pages with GitHub Actions, you need to do a few things.
+
+1. Create a [personal access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) with rights to read and write to repos.
+1. Put that token in your repos secrets. Click the Settings tab and paste your access token in the Secrets tab with the key `ACCESS_TOKEN`.
+1. Now once you commit your code, it should automatically deploy your GitHub Pages site should deploy automatically!
+
 ## Example Sites
 
+- [This repo itself](https://btholt.github.io/gatsby-course-starter/)
+- [Complete Intro to Containers](https://btholt.github.io/complete-intro-to-containers/)
+- [Complete Intro to React v5](https://btholt.github.io/complete-intro-to-react-v5/)
 - [Complete Intro to Web Dev v2](https://btholt.github.io/intro-to-web-dev-v2/)
-- [Complete Intro to React v4](https://btholt.github.io/complete-intro-to-react-v4/)
 - [Four Semesters of Computer Science in Five Hours Part II](https://btholt.github.io/four-semesters-of-cs-part-two/)
 
 ## License
