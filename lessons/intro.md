@@ -1,7 +1,9 @@
 ---
 path: "/intro"
 title: "Introduction"
-order: 0
+order: 1.A
+section: "The First Section"
+description: "this is the description that will show up in social shares"
 ---
 
 This is page one.

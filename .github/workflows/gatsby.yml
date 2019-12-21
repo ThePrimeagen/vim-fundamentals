@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: npm install and build
+      - name: npm install, build, and csv
         run: |
           npm install
           npm run build
+          npm run csv
       - name: Deploy site to gh-pages branch
         uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
         with:

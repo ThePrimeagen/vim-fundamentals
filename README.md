@@ -22,7 +22,9 @@ The crux of this site is are the lessons. Provided are two examples. Each lesson
 
 - `path` - needs a leading slash. This will be slug of the lesson
 - `title` - will be the title displayed on the Table of Contents and on the page itself
-- `order` - the order of which the item should appear in the table of contents. The first item should be of order `0`. The second should be `1`, etc. Must be numbered sequentially, i.e. don't skip numbers.
+- `order` - the order of which the item should appear in the table of contents. should in `<number>.<letter>` format where the number corresponds to the section it's and the letter corresponds to the order of the lesson inside the section, e.g. `3.B`
+- `section` - the title of the section that the article is in. Only the first lesson for each section will be used.
+- `description` – a one-to-three sentence summary of the lesson. used for the meta tag for social shares and SEO. if no description is given, the `siteMetadata.description` for the site is used
 
 ## Config
 
@@ -49,6 +51,10 @@ If you do want to deploy this to GitHub Pages with GitHub Actions, you need to d
 - [Complete Intro to React v5](https://btholt.github.io/complete-intro-to-react-v5/)
 - [Complete Intro to Web Dev v2](https://btholt.github.io/intro-to-web-dev-v2/)
 - [Four Semesters of Computer Science in Five Hours Part II](https://btholt.github.io/four-semesters-of-cs-part-two/)
+
+## CSV
+
+If you run `npm run csv`, a CSV will be generated with all the various lessons' frontmatter outputted to `public/lessons.csv`. You can change the path by changing the `OUTPUT_CSV_PATH` environment variable
 
 ## License
 
