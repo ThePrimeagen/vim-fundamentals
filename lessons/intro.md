@@ -1,7 +1,7 @@
 ---
 path: "/intro"
 title: "Introduction"
-order: 1.A
+order: "1A"
 section: "The First Section"
 description: "this is the description that will show up in social shares"
 ---
@@ -17,3 +17,10 @@ This is page one.
 ```js
 const x = 2 + 2;
 ```
+
+- This is a link to [Frontend Masters][fem].
+- This another link to [Brian Holt's Twitter](https://twitter.com/holtbt).
+- Here's another link to a [site built with this starter][containers].
+
+[fem]: https://www.frontendmasters.com
+[containers]: https://btholt.github.io/complete-intro-to-containers/

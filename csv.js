@@ -1,6 +1,9 @@
 const fs = require("fs").promises;
 const path = require("path");
 const fm = require("front-matter");
+const isUrl = require("is-url-superb");
+const parseLinks = require("parse-markdown-links");
+const { sorter } = require("./helpers");
 const mdDir = process.env.MARKDOWN_DIR || path.join(__dirname, "lessons/");
 const outputPath =
   process.env.OUTPUT_CSV_PATH || path.join(__dirname, "public/lessons.csv");
@@ -31,20 +34,17 @@ async function createCsv() {
   const attributes = Array.from(seenAttributes.values());
 
   if (attributes.includes("order")) {
-    frontmatters = frontmatters.sort(
-      // (a, b) => a.attributes.order - b.attributes.order
-      (a, b) => {
-        const [aSection, aLesson] = a.order.split(".");
-        const [bSection, bLesson] = b.order.split(".");
-
-        if (aSection !== bSection) {
-          return aSection - bSection;
-        }
-
-        return aLesson.charCodeAt() - bLesson.charCodeAt();
-      }
-    );
+    frontmatters = frontmatters.sort(sorter);
   }
+
+  // get links
+  attributes.push("links");
+  seenAttributes.add("links");
+  frontmatters = frontmatters.map(row => {
+    const links = parseLinks(row.body).filter(isUrl);
+    row.attributes.links = JSON.stringify(links, 0, null);
+    return row;
+  });
 
   // get all data into an array
   let rows = frontmatters.map(item => {
