@@ -1,8 +1,9 @@
 import React from "react";
 import Link from "gatsby-link";
-import * as sortFn from "../util/sort";
-
+import * as helpers from "../util/helpers";
 import "./TOCCard.css";
+
+const sortFn = helpers.sorter;
 
 const LessonCard = ({ content, title }) => {
   console.log(sortFn);

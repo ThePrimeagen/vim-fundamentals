@@ -7,3 +7,5 @@ section: "The Second Section"
 ---
 
 This is page three.
+
+I think it is a good page.

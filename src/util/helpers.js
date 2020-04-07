@@ -18,8 +18,18 @@ const getCharScore = str =>
     .reduce((acc, score) => acc + score);
 
 function sorter(a, b) {
-  const [aSec, aSub] = splitSections(a.attributes.order);
-  const [bSec, bSub] = splitSections(b.attributes.order);
+  let aOrder, bOrder;
+
+  if (a.attributes && a.attributes.order) {
+    aOrder = a.attributes.order;
+    bOrder = b.attributes.order;
+  } else {
+    aOrder = a.order;
+    bOrder = b.order;
+  }
+
+  const [aSec, aSub] = splitSections(aOrder);
+  const [bSec, bSub] = splitSections(bOrder);
 
   // sections first
   if (aSec !== bSec) {

@@ -67,7 +67,6 @@ async function createCsv() {
     return newRow;
   });
 
-  console.log("links", longestLength, linksArray);
   if (longestLength) {
     // add title row
     linksArray = linksArray.map(array => {
