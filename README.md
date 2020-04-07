@@ -1,7 +1,4 @@
 <h1 align="center">gatsby-course-starter</h1> <br>
-<p align="center">
-    <img alt="project logo" src="https://brholtimages.blob.core.windows.net/images/woman-teacher.png" width="150">
-</p>
 
 <p align="center">
   A Gatsby starter to get you started creating educational materials using Markdown
@@ -22,7 +19,7 @@ The crux of this site is are the lessons. Provided are two examples. Each lesson
 
 - `path` - needs a leading slash. This will be slug of the lesson
 - `title` - will be the title displayed on the Table of Contents and on the page itself
-- `order` - the order of which the item should appear in the table of contents. should in `<number>.<letter>` format where the number corresponds to the section it's and the letter corresponds to the order of the lesson inside the section, e.g. `3.B`
+- `order` - the order of which the item should appear in the table of contents. should in `<number><capital letter>` format where the number corresponds to the section it's and the letter corresponds to the order of the lesson inside the section, e.g. `3B`
 - `section` - the title of the section that the article is in. Only the first lesson for each section will be used.
 - `description` – a one-to-three sentence summary of the lesson. used for the meta tag for social shares and SEO. if no description is given, the `siteMetadata.description` for the site is used
 
@@ -54,7 +51,9 @@ If you do want to deploy this to GitHub Pages with GitHub Actions, you need to d
 
 ## CSV
 
-If you run `npm run csv`, a CSV will be generated with all the various lessons' frontmatter outputted to `public/lessons.csv`. You can change the path by changing the `OUTPUT_CSV_PATH` environment variable
+If you run `npm run csv`, a CSV will be generated with all the various lessons' frontmatter outputted to `public/lessons.csv`. You can change the path by changing the `OUTPUT_CSV_PATH` environment variable.
+
+Another CSV will be output to `public/links.csv` where it pull all the links out of each lesson and put them into a CSV. This path can be modified by setting the `LINKS_CSV_PATH` environment variable.
 
 ## License
 

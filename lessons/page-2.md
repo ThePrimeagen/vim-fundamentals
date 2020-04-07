@@ -6,4 +6,4 @@ description: "The second page"
 section: "The Second Section"
 ---
 
-This is page two.
+This is page [two](https://en.wikipedia.org/wiki/2).

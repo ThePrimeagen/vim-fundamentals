@@ -7,6 +7,8 @@ const { sorter } = require("./helpers");
 const mdDir = process.env.MARKDOWN_DIR || path.join(__dirname, "lessons/");
 const outputPath =
   process.env.OUTPUT_CSV_PATH || path.join(__dirname, "public/lessons.csv");
+const linksOutputPath =
+  process.env.LINKS_CSV_PATH || path.join(__dirname, "public/links.csv");
 
 async function createCsv() {
   console.log(`making the markdown files into a CSV from ${mdDir}`);
@@ -37,15 +39,6 @@ async function createCsv() {
     frontmatters = frontmatters.sort(sorter);
   }
 
-  // get links
-  attributes.push("links");
-  seenAttributes.add("links");
-  frontmatters = frontmatters.map(row => {
-    const links = parseLinks(row.body).filter(isUrl);
-    row.attributes.links = JSON.stringify(links, 0, null);
-    return row;
-  });
-
   // get all data into an array
   let rows = frontmatters.map(item => {
     const row = attributes.map(attr =>
@@ -64,6 +57,38 @@ async function createCsv() {
   await fs.writeFile(outputPath, csv);
 
   console.log(`Wrote ${rows.length} rows to ${outputPath}`);
+
+  // make links csv
+  let longestLength = 0;
+  let linksArray = frontmatters.map(row => {
+    const links = parseLinks(row.body).filter(isUrl);
+    longestLength = longestLength > links.length ? longestLength : links.length;
+    const newRow = [row.attributes.order, row.attributes.title, ...links];
+    return newRow;
+  });
+
+  console.log("links", longestLength, linksArray);
+  if (longestLength) {
+    // add title row
+    linksArray = linksArray.map(array => {
+      const lengthToFill = longestLength + 2 - array.length;
+      return array.concat(Array.from({ length: lengthToFill }).fill(""));
+    });
+
+    linksArray.unshift(
+      ["order", "title"].concat(
+        Array.from({ length: longestLength }).map((_, index) => `link${index}`)
+      )
+    );
+
+    // join into CSV string
+    const linksCsv = linksArray.map(row => row.join(",")).join("\n");
+
+    // write file out
+    await fs.writeFile(linksOutputPath, linksCsv);
+
+    console.log(`Wrote ${linksArray.length} rows to ${linksOutputPath}`);
+  }
 }
 
 createCsv();
