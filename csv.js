@@ -3,7 +3,7 @@ const path = require("path");
 const fm = require("front-matter");
 const isUrl = require("is-url-superb");
 const parseLinks = require("parse-markdown-links");
-const { sorter } = require("./helpers");
+const { sorter } = require("./src/util/helpers");
 const mdDir = process.env.MARKDOWN_DIR || path.join(__dirname, "lessons/");
 const outputPath =
   process.env.OUTPUT_CSV_PATH || path.join(__dirname, "public/lessons.csv");
