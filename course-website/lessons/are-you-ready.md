@@ -12,3 +12,9 @@ know three things.
 * This is a journey, its not a day trip
 * The journey is uphill
 * The top of the mountain is incredible
+
+### For the live class
+I stream on twitch, so feel free to ask questions at any point and I can pivot
+if its beneficial for all or I'll answer the question at the end of the
+section.
+

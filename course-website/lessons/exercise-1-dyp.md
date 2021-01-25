@@ -3,17 +3,17 @@ path: "/exercise-1"
 title: "dyp"
 order: "7A"
 section: "Exercises"
-description: "This is the basic editing of files"
+description: "This is the basic movement and editing of text"
 ---
 ## NOTE
 To use the exercises, please curl the file to your machine and edit it with vim.
 
 ## Exercise 1: Basic Editing
 ### Delete a line with dd
-delete me
-delete me
-delete me
-delete me
+delete me 1
+delete me 2
+delete me 3
+delete me 4
 
 ### Yank and paste.  yy to yank line, p to paste line below, P above
 yank me and paste below (yyp)
