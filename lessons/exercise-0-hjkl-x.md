@@ -1,8 +1,8 @@
 ---
 path: "/exercise-0"
 title: "hjkl-x"
-order: "5A"
-section: "Basics"
+order: "69A"
+section: "Misc Content"
 description: "This is the first exercise to try out."
 ---
 ## NOTE

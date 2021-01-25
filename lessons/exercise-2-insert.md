@@ -1,8 +1,8 @@
 ---
 path: "/exercise-2"
 title: "insert"
-order: "6A"
-section: "Basics"
+order: "71A"
+section: "Misc Content"
 description: "Insertion!  There are many ways to go into INSERT mode."
 ---
 
