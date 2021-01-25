@@ -1,8 +1,8 @@
 ---
 path: "/exercise-0"
 title: "hjkl-x"
-order: "4A"
-section: "Exercises"
+order: "5A"
+section: "Basics"
 description: "This is the first exercise to try out."
 ---
 ## NOTE
@@ -64,15 +64,14 @@ To use the exercises, please curl the file to your machine and edit it with vim.
                                            |
 o-+      +------+      +------+      +-----+
 
-## Part 4: Insert mode
-There are a few ways to go into insert mode
+### Go in circles until you feel good
 
-i: left side of cursor
-a: right side of cursor
-I: first character of line
-A: last character of line
-o: insert new line below line and go into insert mode
-O: insert new line above line and go into insert mode
-
-lets play around
-
+       +------+
+       |      |
+       |      |
+       |      |
+       +------+------+
+              |      |
+              |      |
+              |      |
+              +------+
