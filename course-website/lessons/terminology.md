@@ -40,3 +40,14 @@ and orientations available) to display windows.
 Help menu can be accessed by typing `:h<enter>`.  There is _so much
 documentation_, that is pretty good, available.  If you find yourself lost,
 RTFM (at least that is what they tell me).
+
+## Motion
+A command that moves the cursor (taken straight from the help docs, h motion).   
+
+## Abbreviations
+Ctrl+a will be abbreviated <C-a>.  This is also how its referenced in VimL,
+Vim's editor language.
+
+Enter will often be abbr as <Cr>
+
+Tab, Escape, and space will be <tab>, <escape>, <space>

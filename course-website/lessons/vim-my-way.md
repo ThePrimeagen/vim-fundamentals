@@ -58,8 +58,8 @@ Open up vim again.  Ohh yeah!  This is great, but those tabs have to go (tabs
 vs spaces anyone?)!  Add these lines to your vimrc and restart vim.
 
 ```viml
-set tabstop=16 softtabstop=4
-set shiftwidth=16
+set tabstop=4 softtabstop=4
+set shiftwidth=4
 set expandtab
 set smartindent
 ```
