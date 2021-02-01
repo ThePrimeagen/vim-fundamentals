@@ -35,29 +35,48 @@ Some fun facts about vi mode in ex.
 * Was originally written by a single person, Bill Joy, in 1976.
 * Ram was < 1k
 * Emacs cost $100s.  Yikes
+
+![Emacs Leraning Curve](./images/emacs-learning.png)
+
 * hjkl are movement keys because of Bill Joy's keyboard, which apparently was
   the only ever made...
+
+![Bill Joys Keyboard](./images/bill-joys-keyboard.jpeg)
+
 * Bill Joy's words of wisdom
   * "People don't know that vi was written for a world that doesn't exist anymore"
 * vi was written to edit text with a 300 buad modem.
 
-![Bill Joys Keyboard](./images/bill-joys-keyboard.png)
-
 ## Why do I use vim?
 
-I think I am a lot like you.  I saw someone at some point use vim/emacs and it
-blew my mind.  I wanted to be good the command line.  I wanted to be fast.  I
-wanted to be covered in that sweet organic, grass fed, free range coconut oil!
+I think I am a lot like you.  I used netbeans.  I was just a regular student
+doing regular java binary searches in Netbeans.
+
+One time I opened up vim at the encouragement of my friend...
+
+![When I Exit Vim](./images/exit-vim.png)
+
+I saw someone at some point
+use vim/emacs and it blew my mind.  I wanted to be good the command line.  I
+wanted to be fast.  I wanted to be covered in that sweet organic, grass fed,
+free range coconut oil!
 
 So I took the journey.  I started in IntelliJ with ideaVim!  It was painful.  I
 am not going to lie, I almost gave up after one hour and I accomplished nothing
-but being frustrated.  But then I decided that I was going to master the simple
+but being frustrated.
+
+![Vim Learning Curve](./images/vi-learning.png)
+
+But then I decided that I was going to master the simple
 movements and start mastering each movement one at a time until I was the best
 there was.
 
 Lets get started on this journey together.  Lets get vimmed out of our mind.
 By the end of this course, hopefully you will understand what in the world
 coconut oil has to do with vim.
+
+## Set Expectations
+You may feel confused, so ask questions.
 
 ## Who Am I?
 * I make youtube videos about Vim
@@ -67,8 +86,8 @@ coconut oil has to do with vim.
     * Vim Deathmatch.  A battle royale like vim plugin to battle for fastest
       vim editing skallz (lua + docker)
     * Sonic Pi.  Creating live beats with the help of chat. (python + ncurses + docker)
-* World record 100%Complete speed run of vimtutor
-* I work at Netflix 
+* World record 100% Complete speed run of vimtutor
+* I work at Netflix
 
 ## Who should take this course
 * You wish to defeat complacency
@@ -77,5 +96,27 @@ coconut oil has to do with vim.
 ## Prereqs
 * Unix System as I cannot help you if you are on windows and you experience and
   problems.  I suggest Plebuntu
-* typing skills will directly affect your experience.  
+* typing skills will directly affect your experience.
+
+## Flavors of vim
+* VIM - Vi IMproved
+    * 8.1+
+
+* NeoVim (I personally use this, wont go over anything neovim specific)
+
+* spacevim
+    * https://spacevim.org/
+
+* onivim2
+    * https://onivim.io/
+
+## Learning Vim
+* vimtutor
+* vim-adventures
+* [ThePrimeagen](https://youtube.com/ThePrimeagen)'s Youtube
+  * 6 part series
+  * Learning lua plugin dev
+  * VimRC
+* `:h usr<tab>`
+
 

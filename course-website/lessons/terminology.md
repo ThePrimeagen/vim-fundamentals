@@ -12,7 +12,7 @@ Files](https://www.youtube.com/watch?v=VVdmmN0su6E)) but there is a bit more
 when it comes to how vim handles them.
 
 ### Buffer
-A buffer contains the text of the file and is what you edit.  
+A buffer contains the text of the file and is what you edit.
 
 `:h buffer`
 
@@ -42,12 +42,12 @@ documentation_, that is pretty good, available.  If you find yourself lost,
 RTFM (at least that is what they tell me).
 
 ## Motion
-A command that moves the cursor (taken straight from the help docs, h motion).   
+A command that moves the cursor (taken straight from the help docs, h motion).
 
 ## Abbreviations
-Ctrl+a will be abbreviated <C-a>.  This is also how its referenced in VimL,
+Ctrl+a will be abbreviated `<C-a>`.  This is also how its referenced in VimL,
 Vim's editor language.
 
-Enter will often be abbr as <Cr>
+Enter will often be abbr as `<CR>`
 
-Tab, Escape, and space will be <tab>, <escape>, <space>
+Tab, Escape, and space will be `<tab>`, `<esc>`, `<space>`
