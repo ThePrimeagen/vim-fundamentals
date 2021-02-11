@@ -75,6 +75,8 @@ Lets get started on this journey together.  Lets get vimmed out of our mind.
 By the end of this course, hopefully you will understand what in the world
 coconut oil has to do with vim.
 
+Personal note.  The love of the thing and Dante.
+
 ## Set Expectations
 You may feel confused, so ask questions.
 
