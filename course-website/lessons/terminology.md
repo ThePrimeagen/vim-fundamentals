@@ -42,7 +42,7 @@ documentation_, that is pretty good, available.  If you find yourself lost,
 RTFM (at least that is what they tell me).
 
 ## Motion
-A command that moves the cursor (taken straight from the help docs, h motion).
+A command that moves the cursor (taken straight from the help docs, `:h motion`).
 
 ## Abbreviations
 Ctrl+a will be abbreviated `<C-a>`.  This is also how its referenced in VimL,
@@ -51,3 +51,5 @@ Vim's editor language.
 Enter will often be abbr as `<CR>`
 
 Tab, Escape, and space will be `<tab>`, `<esc>`, `<space>`
+
+When you see something that starts with a `:` that means it will execute a command.

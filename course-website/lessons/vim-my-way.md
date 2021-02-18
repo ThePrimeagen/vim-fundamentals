@@ -6,6 +6,17 @@ description: "Ok, so vim looked pretty ugly.  Lets make it feel the way we want 
 section: "The VimRC"
 ---
 
+Ok, how much did you hate having to do the `zz`?  It is annoying.  Instead,
+lets tell vim to do it for us.
+
+```viml
+:set scrolloff=8
+```
+
+Now lets scroll around.  How does it feel.  SO GOOD.
+
+----
+
 Lets quit out of our previous vim experience and curl down this file.
 
 ```
@@ -50,6 +61,7 @@ So lets create one!
 Create a vimrc in the correct location with the following content.
 
 ```viml
+set scrolloff=8
 set number
 set relativenumber
 ```
@@ -65,15 +77,6 @@ set smartindent
 ```
 
 Now restart vim... what just happened?  Pretty cool huh?
-
-Now lets reset those tabs to spaces (you don't have to do that)!  Highlight the
-entire function and press `=`.  `=` performs formatting over the range you have
-selected or over a motion.  Now we haven't yet defined motions, but we have
-executed some.  Remember `7dd`.  You can also do movements over `=`, try
-misaligning the function again and press `10=j`.
-
-Lets talk about `10=j` for a second.  What does that mean?  It means repeat 10
-times, formatting, downward.
 
 ### How do you know what is available?
 * You can google.  Sometimes that is a good thing.

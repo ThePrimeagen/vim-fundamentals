@@ -6,12 +6,13 @@ section: "Introduction"
 description: "The gentle introduction into vim that will blow your mind and cover you in coconut oil."
 ---
 
-The first time you use vim it feels archane.  It feels like it was designed in
-such a strange way.  But there is a reason behind its madness.
+### Motivation
 
-Lets talk about ED, yes ED, not VIM.
+Often its the little choices in our lives.
 
-To get started, navigate to a file you wish to edit.
+### Welcome to Vim
+
+#### But first, lets meet ED
 
 ```bash
 > ed my-file.ts
@@ -88,7 +89,6 @@ You may feel confused, so ask questions.
     * Vim Deathmatch.  A battle royale like vim plugin to battle for fastest
       vim editing skallz (lua + docker)
     * Sonic Pi.  Creating live beats with the help of chat. (python + ncurses + docker)
-* World record 100% Complete speed run of vimtutor
 * I work at Netflix
 
 ## Who should take this course
@@ -99,6 +99,7 @@ You may feel confused, so ask questions.
 * Unix System as I cannot help you if you are on windows and you experience and
   problems.  I suggest Plebuntu
 * typing skills will directly affect your experience.
+* `git clone https://github.com/ThePrimeagen/vim-nav-playground.git`
 
 ## Flavors of vim
 * VIM - Vi IMproved
