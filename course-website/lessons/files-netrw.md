@@ -9,8 +9,15 @@ description: "Coconut oil in hand, you are ready to navigate some files with Net
 NetRW is the default browsing of the filesystem plugin, and it comes with vim
 for years now.  It is available in both Vim and NeoVim.
 
+Please navigate to `vim-nav-playground`.  If you did not clone it, it can be
+found [here](https://github.com/ThePrimeagen/vim-nav-playground)
+
 Lets go over some basic movements.  You can use all the same navigation as you
 would while editing, but for file navigation.
+
+```viml
+vim .
+```
 
 Lets go down, `j`, to `src` and press `<CR>` (enter).  Notice that it opens the
 folder.  We see a couple of files.  Lets scroll to `twitch.c` and press `<CR>`.
@@ -41,6 +48,7 @@ If you don't remember, or starting here, here is our vimrc so far.
 [Color My Pencils](/color-my-pencils)
 
 ```viml
+set scrolloff=8
 set number
 set relativenumber
 set tabstop=4 softtabstop=4

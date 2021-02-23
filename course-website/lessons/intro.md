@@ -83,17 +83,19 @@ You may feel confused, so ask questions.
 
 ## Who Am I?
 * I make youtube videos about Vim
-* I stream on twitch and create vim plugins or other fun programs.
-  * Currently I am streaming the following (subject to change):
-    * HTTP2 / 3 implementation for Netflix (typescript)
+* I stream on twitch 
+    * NeoVim Plugins
     * Vim Deathmatch.  A battle royale like vim plugin to battle for fastest
       vim editing skallz (lua + docker)
     * Sonic Pi.  Creating live beats with the help of chat. (python + ncurses + docker)
+    * Coding for Netflix (typescript)
+
 * I work at Netflix
 
 ## Who should take this course
+* A (want to be) developer
+* Desire to be excellent and to learn
 * You wish to defeat complacency
-* A desire to learn
 
 ## Prereqs
 * Unix System as I cannot help you if you are on windows and you experience and

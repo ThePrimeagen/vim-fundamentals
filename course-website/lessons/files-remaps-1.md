@@ -18,11 +18,19 @@ vim ~/.vimrc
 vim ~/.config/nvim/init.vim
 ```
 
+If your path is different for neovim but you don't know what it is, execute the
+following in neovim to expose the path!!!
+```viml
+" Neovim only
+:echo stdpath("config")
+```
+
 If you didn't save everything from the vim rc section, here is the complete
 vimrc thus far from [Vim My Way](/vim-my-way) and [Color My
 Pencils](/color-my-pencils).
 
 ```viml
+set scrolloff=8
 set number
 set relativenumber
 set tabstop=4 softtabstop=4

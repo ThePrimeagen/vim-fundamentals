@@ -56,6 +56,9 @@ never executed these new changes.  Lets source the file.
 
 Now lets try again! did anything happen?
 
+#### Dangers of remaps
+It can make your system feel slow..
+
 #### Exercise time
 Sourcing the vimrc kind of stinks huh?  Could we remap this?
 

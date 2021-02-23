@@ -47,8 +47,7 @@ I'll say it again.
 
 * We learned things about motions.
     * dd can become <count>dd
-    * `=`
-    * super dooper combos such as <count>=<j/k>
+    * Moving with 10j / 10k.  Wowow
 
 ### Extend it
 Do you think you could do anything with `y` and `p`?  Could `yj` work?  What

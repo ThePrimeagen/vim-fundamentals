@@ -6,11 +6,6 @@ section: "Misc Content"
 description: "Search and Replace!"
 ---
 
-## Warning
-DO NOT SAVE WHILE DOING THIS EXERCISE
-
-if you do, recurl down this file!
-
 ### Basic Search
 search for `error` by typing `/error<CR>`
 

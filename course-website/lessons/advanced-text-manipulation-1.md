@@ -8,7 +8,7 @@ description: "Search and replace.  Regex licences may be required."
 
 Were are getting to the end game of vim.  There is still so much out there, but
 for the sake of surveying, this is where we will end.  We will cover Search and
-Replace, Quickfix replace, Macros, and finally registers.
+Replace, Macros, and finally registers.
 
 ### Search and Replace
 Lets go through a search and replace exercise.  This should help us get the

@@ -11,7 +11,7 @@ module.exports = {
       "will index your page for"
     ]
   },
-  //pathPrefix: "/my-repo-name", // if you're using GitHub Pages, put the name of the repo here with a leading slash
+  pathPrefix: "/vim-fundamentals", // if you're using GitHub Pages, put the name of the repo here with a leading slash
   plugins: [
     `gatsby-plugin-layout`,
     {
