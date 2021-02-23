@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/lessons`,
+        path: `${__dirname}/course-website/lessons`,
         name: "markdown-pages"
       }
     },
