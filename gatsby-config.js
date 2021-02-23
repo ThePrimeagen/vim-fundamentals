@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
+    title: "Vim Fundamentals",
+    subtitle: "Making vim approachable!",
     description:
-      "This is the description that will show up when people share as well as on search engines",
+      "This is a survey of vim, how it works, and how to become a sensai of vimfu.",
     keywords: [
-      "this is",
-      "a list of keywords and phrase",
-      "that search engines",
-      "will index your page for"
+      "Vim",
+      "Awesome",
+      "Coconut Oil",
+      "ThePrimeagen"
     ]
   },
   pathPrefix: "/vim-fundamentals", // if you're using GitHub Pages, put the name of the repo here with a leading slash
