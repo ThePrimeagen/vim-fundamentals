@@ -11,7 +11,7 @@ module.exports = {
       "ThePrimeagen"
     ]
   },
-  pathPrefix: "/vim-fundamentals", // if you're using GitHub Pages, put the name of the repo here with a leading slash
+  pathPrefix: "/vim-fundamentals-2", // if you're using GitHub Pages, put the name of the repo here with a leading slash
   plugins: [
     `gatsby-plugin-layout`,
     {
