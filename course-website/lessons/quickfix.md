@@ -77,3 +77,9 @@ nnoremap <C-j> :cprev<CR>
 nnoremap <C-E> :copen<CR>
 ```
 
+### No Internet ordering problem
+When practicing this presentation I kept finding myself having a problem.  I didn't want to have to keep compiling and using `npm run dev`.  But I wanted to practice through my presentation in order.  For the most part I just dealt with it and booted everything up.  But on the flight here I was unable to load the pages due to internet requirements.  But!!! I could solve the ordering issue via qflist.
+
+#### getqflist and setqflist
+
+

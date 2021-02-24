@@ -40,6 +40,12 @@ be able to customize the netrw experience.  The answer, of course, is yes to
 both.
 
 Lets step up our vim knowledge.
+
+But first, PSA
+
+### The Gateway Drug Effect
+
+### Beefing up our vim rc
 First, lets quit and re-open up our vimrc.
 
 If you don't remember, or starting here, here is our vimrc so far.

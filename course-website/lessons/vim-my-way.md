@@ -22,18 +22,9 @@ lets tell vim to do it for us.
 
 Now lets scroll around.  How does it feel.  SO GOOD.
 
-----
+#### Do the deletes!
 
-lets tell vim to do it for us.
-
-```viml
-:set scrolloff=8
-```
-
-Now lets scroll around.  How does it feel.  SO GOOD.
-
-----
-
+#### Counting is hard?
 
 After following the delete instructions you should notice that its really hard
 to count how many lines of code huh? Type the following

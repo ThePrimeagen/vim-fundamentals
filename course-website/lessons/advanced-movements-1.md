@@ -8,7 +8,7 @@ description: "And you thawght you knew Motions..."
 
 We have already covered some of the horizontal and vertical motions, `I`/`A`
 and `<count>j`/`k` are great examples of fast motions.  But if that is all we
-had, VIM would just be lacking in luster.  
+had, VIM would just be lacking in luster.
 
 ### Quick Recap
 Motion: A command that moves the cursor.

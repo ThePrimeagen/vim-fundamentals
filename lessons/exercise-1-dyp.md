@@ -21,11 +21,11 @@ yank me and paste above (yyP)
 
 ### Visual Mode
 #### Visual Mode
-Highlight part of this line by pressing v, then navigate around 
+Highlight part of this line by pressing v, then navigate around
 escape to leave visual mode
 
 #### Visual Line Mode
-Highlight this line by pressing V, then navigate around 
+Highlight this line by pressing V, then navigate around
 escape to leave visual mode
 
 #### Visual Mode + y / p
