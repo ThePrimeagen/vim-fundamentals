@@ -22,7 +22,7 @@ an example.
 Notice that i name the downloaded file then `&& vim name`
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-0-hjkl-x.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-0-hjkl-x.md > exercise.md && vim exercise.md
 ```
 
 ## One more thing before we start

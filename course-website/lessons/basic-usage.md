@@ -56,7 +56,7 @@ type `:q` to quit vim.  Also, don't tell anyone.
 time to curl down our first little exercise
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-0-hjkl-x.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-0-hjkl-x.md > exercise.md && vim exercise.md
 ```
 
 ### Deleting, Yanking, and Pasting
@@ -65,15 +65,18 @@ where you will see some significant speed ups compared to a conventional editor.
 
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-1-dpy.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-1-dyp.md > exercise.md && vim exercise.md
 ```
 
 ### Insert!
 We are going to go over entering into insert mode
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-2-insert.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-2-insert.md > exercise.md && vim exercise.md
 ```
+
+### Using o and O
+Let give you a quick demo
 
 ## Recap
 Lets talk about what happened.  I would love to get some feedback from you.
@@ -84,7 +87,8 @@ does it seem exciting?  I hope you are excited.
 * h,j,k,l for basic movement.
 * w,b for word hopping.  Effectively the same as Option/Ctrl + arrow keys
 * yy to "copy" a line, called Yank
-* dd to delete, and yank, a line
+* dd to delete, 
+* yy to yank
 * p and P to paste the contents of the implicit register below / above
 * Most of the ways to go into insert mode!
   * i and a for which side of the cursor

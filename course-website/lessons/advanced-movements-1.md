@@ -27,5 +27,5 @@ lets do an exercise and go over some advanced motions!
 
 #### Example time
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-6-motions.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-6-motions.md > exercise.md && vim exercise.md
 ```

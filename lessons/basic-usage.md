@@ -56,7 +56,7 @@ type `:q` to quit vim.  Also, don't tell anyone.
 time to curl down our first little exercise
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-0-hjkl-x.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-0-hjkl-x.md > exercise.md && vim exercise.md
 ```
 
 ### Deleting, Yanking, and Pasting
@@ -65,14 +65,14 @@ where you will see some significant speed ups compared to a conventional editor.
 
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-1-dpy.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-1-dyp.md > exercise.md && vim exercise.md
 ```
 
 ### Insert!
 We are going to go over entering into insert mode
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-2-insert.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-2-insert.md > exercise.md && vim exercise.md
 ```
 
 ## Recap

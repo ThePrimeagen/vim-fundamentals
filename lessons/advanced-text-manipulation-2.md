@@ -18,5 +18,5 @@ I remember my first macro like it was yesterday.....
 
 #### Example time
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-4-macros.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-4-macros.md > exercise.md && vim exercise.md
 ```

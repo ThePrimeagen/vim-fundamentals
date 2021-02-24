@@ -20,7 +20,7 @@ Now lets scroll around.  How does it feel.  SO GOOD.
 Lets quit out of our previous vim experience and curl down this file.
 
 ```
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/some-javascript.md > exercise.js && vim exercise.js
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/some-javascript.md > exercise.js && vim exercise.js
 ```
 
 After following the delete instructions you should notice that its really hard

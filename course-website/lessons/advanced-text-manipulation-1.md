@@ -15,6 +15,6 @@ Lets go through a search and replace exercise.  This should help us get the
 foundation of basic search and replace
 
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-3-search-and-replace.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-3-search-and-replace.md > exercise.md && vim exercise.md
 ```
 

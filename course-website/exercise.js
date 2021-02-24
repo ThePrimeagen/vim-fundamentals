@@ -29,25 +29,3 @@ if (true) {
 	console.log(foo(1, 5, 7));
 }
 
-if (false) {
-	console.log(foo(1, 5, 7));
-}
-
-if (false || true) {
-	console.log(foo(1, 5, 7));
-}
-
-foo(
-    foo(1),
-    foo(2),
-    foo(3))
-
-foo(
-    foo(4),
-    foo(5),
-    foo(6))
-
-foo(
-    foo(7),
-    foo(8),
-    foo(9))

@@ -38,7 +38,6 @@ press p (What happened?)
 Lets repeat but with d instead of y, (What happened?)
 
 ## Part 3: The relationship of y / d
-:h reg
 :reg
 
 What did we see there?

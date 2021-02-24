@@ -18,5 +18,5 @@ The `value` is a string
 
 #### Example time
 ```bash
-curl https://raw.githubusercontent.com/ThePrimeagen/gatsby-course-starter/master/course-website/lessons/exercise-5-registers.md > exercise.md && vim exercise.md
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-5-registers.md > exercise.md && vim exercise.md
 ```
