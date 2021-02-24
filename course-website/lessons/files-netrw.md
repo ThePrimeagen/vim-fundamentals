@@ -43,9 +43,9 @@ Lets step up our vim knowledge.
 
 But first, PSA
 
-### The Gateway Drug Effect
-
 ### Beefing up our vim rc
+#### Don't Shy away from the rc
+
 First, lets quit and re-open up our vimrc.
 
 If you don't remember, or starting here, here is our vimrc so far.
