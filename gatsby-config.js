@@ -11,13 +11,13 @@ module.exports = {
       "ThePrimeagen"
     ]
   },
-  pathPrefix: "/vim-fundamentals-2", // if you're using GitHub Pages, put the name of the repo here with a leading slash
+  pathPrefix: "/vim-fundamentals",
   plugins: [
     `gatsby-plugin-layout`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/course-website/lessons`,
+        path: `${__dirname}/lessons`,
         name: "markdown-pages"
       }
     },
