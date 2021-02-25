@@ -6,13 +6,6 @@ description: "Ok, so vim looked pretty ugly.  Lets make it feel the way we want 
 section: "The VimRC"
 ---
 
-Lets quit out of our previous vim experience and curl down this file.
-
-```
-curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/some-javascript.md > exercise.js && vim exercise.js
-```
-#### Side step
-
 Ok, how much did you hate having to do the `zz`?  It is annoying.  Instead,
 lets tell vim to do it for us.
 
@@ -22,9 +15,13 @@ lets tell vim to do it for us.
 
 Now lets scroll around.  How does it feel.  SO GOOD.
 
-#### Do the deletes!
+----
 
-#### Counting is hard?
+Lets quit out of our previous vim experience and curl down this file.
+
+```
+curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/some-javascript.md > exercise.js && vim exercise.js
+```
 
 After following the delete instructions you should notice that its really hard
 to count how many lines of code huh? Type the following

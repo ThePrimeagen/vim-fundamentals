@@ -75,9 +75,6 @@ We are going to go over entering into insert mode
 curl https://raw.githubusercontent.com/ThePrimeagen/vim-fundamentals/master/course-website/lessons/exercise-2-insert.md > exercise.md && vim exercise.md
 ```
 
-### Using o and O
-Let give you a quick demo
-
 ## Recap
 Lets talk about what happened.  I would love to get some feedback from you.
 What do you think about all of this nonsense?  Does it seem like to much?  Or
@@ -87,8 +84,7 @@ does it seem exciting?  I hope you are excited.
 * h,j,k,l for basic movement.
 * w,b for word hopping.  Effectively the same as Option/Ctrl + arrow keys
 * yy to "copy" a line, called Yank
-* dd to delete, 
-* yy to yank
+* dd to delete, and yank, a line
 * p and P to paste the contents of the implicit register below / above
 * Most of the ways to go into insert mode!
   * i and a for which side of the cursor

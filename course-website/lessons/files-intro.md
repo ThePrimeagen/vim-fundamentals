@@ -8,7 +8,7 @@ description: "Coconut oil in hand, you are ready to navigate some files."
 
 As you imagined there is the "Vim" way to do everything.  But the good news is
 that there are many a plugin to make this process easier.  Lets start off by
-learning the vim way.
+learning some built in vim ways and then expand from there.
 
 First, lets clone a small test repo
 

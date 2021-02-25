@@ -21,27 +21,27 @@ To use the exercises, please curl the file to your machine and edit it with vim.
 ### press l and j to follow the line and x to delete the o
 -+
  |
- |                          
+ |
  +------+
         |
-        |                          
+        |
         +------+
                |
-               |                          
+               |
                +------o
 
 ### press l and j and h to follow the line and x to delete the o
 -+
  |
- |                          
+ |
  +------+
         |
-        |                          
+        |
  +------+
  |
  +------+
         |
-        |                          
+        |
  o------+
 
 ### press l, j, h, and k to follow the line and x to delete the o
@@ -51,7 +51,7 @@ To use the exercises, please curl the file to your machine and edit it with vim.
  +------+      |      |      +------+
                |      |
         +------+      |
-        |             |  
+        |             |
         |             |
         |             |
         +-------------+

@@ -40,29 +40,3 @@ be able to customize the netrw experience.  The answer, of course, is yes to
 both.
 
 Lets step up our vim knowledge.
-
-But first, PSA
-
-### Beefing up our vim rc
-#### Don't Shy away from the rc
-
-First, lets quit and re-open up our vimrc.
-
-If you don't remember, or starting here, here is our vimrc so far.
-
-[Vim My Way](/vim-my-way)
-[Color My Pencils](/color-my-pencils)
-
-```viml
-set scrolloff=8
-set number
-set relativenumber
-set tabstop=4 softtabstop=4
-set shiftwidth=4
-set expandtab
-set smartindent
-
-" This was from the colorscheme section
-colorscheme desert
-```
-

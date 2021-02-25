@@ -1,5 +1,5 @@
 ---
-path: "/pit-stop"
+path: "/adv-pit-stop"
 title: "Pit Stop"
 order: "53A"
 section: "Advanced Text Manipulation"
@@ -11,7 +11,6 @@ description: "There has been a lot of info.  Lets recap!"
 #### Basic Movements
 #### File Navigation
 #### Vim RC
-#### Advanced Text Manipulation
 
 ### Moving forward
 We are going to step it up a notch and improve our knowledge of vim Motions.
