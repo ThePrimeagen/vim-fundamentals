@@ -103,6 +103,9 @@ What should we do now?
 nnoremap <C-p> :GFiles<CR>
 ```
 
+### Lets get a better colorscheme.
+ayu or gruvbox??
+
 ### Recap
 * We got a plugin manager that makes installing plugins easy!  You just need
   the path on github to install new ones.
