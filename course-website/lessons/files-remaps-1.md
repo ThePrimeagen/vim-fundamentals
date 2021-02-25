@@ -1,7 +1,7 @@
 ---
 path: "/files-remaps-1"
 title: "Files and Navigations - Remaps part 1"
-order: "12A"
+order: "13A"
 section: "Navigation"
 description: "Coconut oil in hand, you are ready to navigate some files with NetRW."
 ---
