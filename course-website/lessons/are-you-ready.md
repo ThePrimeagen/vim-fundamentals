@@ -24,7 +24,7 @@ section.
    website and use the curl commands to open up vim.  I recommend just going to
    the website.
 
-   [Vim Fundamentals](theprimeagen.github.io/vim-fundamentals)
+   [Vim Fundamentals](https://theprimeagen.github.io/vim-fundamentals/)
 
 2. git clone https://github.com/ThePrimeagen/vim-nav-playground.git
 
