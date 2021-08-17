@@ -1,0 +1,32 @@
+order,title,link0
+1A,Introduction,https://youtube.com/ThePrimeagen
+2A,The Terminology,https://www.youtube.com/watch?v=VVdmmN0su6E
+3A,Are You Ready?,
+4A,Opening Vim,
+5A,Using Vim,
+9A,Vim My Way,
+10A,Color My Pencils,
+11A,Files and Navigations,
+12A,Files and Navigations - NetRW,https://github.com/ThePrimeagen/vim-nav-playground
+13A,Files and Navigations - Remaps part 1,
+14A,Files and Navigations - Remaps part 2,
+15A,Files and Navigations - Edit,
+16A,Files and Navigations - Marks,
+17A,Files and Navigations - Recap,
+20A,Pit Stop,
+30A,Plugins,https://github.com/junegunn/vim-plug
+40A,Quickfix Intro,
+50A,Search And Replace,
+51A,Macros,
+52A,Registers,
+53A,Pit Stop,
+54A,Advanced Motions,
+60A,First Plugin,https://vimways.org/2019/writing-vim-plugin/
+69A,hjkl-x,
+70A,dyp,
+71A,insert,
+72A,Search and Replace,
+72A,some javascript,
+73A,Macros,
+74A,Registers,
+75A,Advanced Motions,
