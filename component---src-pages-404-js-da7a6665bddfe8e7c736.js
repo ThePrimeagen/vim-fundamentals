@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvim_fundamentals=self.webpackChunkvim_fundamentals||[]).push([[883],{429:function(e,t,n){n.r(t);var u=n(7294);t.default=function(){return u.createElement("div",null,u.createElement("h1",null,"NOT FOUND"),u.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-da7a6665bddfe8e7c736.js.map
