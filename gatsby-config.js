@@ -6,7 +6,7 @@ module.exports = {
       "This is a survey of vim, how it works, and how to become a sensai of vimfu.",
     keywords: ["Vim", "Awesome", "Coconut Oil", "ThePrimeagen"],
   },
-  pathPrefix: "/vim-fundamentals",
+  pathPrefix: "vim-fundamentals",
   plugins: [
     `gatsby-plugin-layout`,
     {
@@ -16,6 +16,7 @@ module.exports = {
         name: "markdown-pages",
       },
     },
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -24,7 +25,6 @@ module.exports = {
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-prismjs`,
-          `gatsby-plugin-sharp`,
           {
             resolve: `gatsby-remark-images`,
             options: {

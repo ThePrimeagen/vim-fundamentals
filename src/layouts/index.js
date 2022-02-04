@@ -74,6 +74,7 @@ const TemplateWrapper = props => {
               {!frontmatter ? null : (
                 <h2>{`${frontmatter.section} – ${frontmatter.title}`}</h2>
               )}
+              <h3 class="button"><a href="https://frontendmasters.com/courses/vim-fundamentals/">VIM Course Videos&nbsp;▶️&nbsp;</a></h3>
             </div>
             <div className="main">{props.children}</div>
           </div>
