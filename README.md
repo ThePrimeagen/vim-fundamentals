@@ -12,6 +12,6 @@ Fly through code faster than you thought possible using VIM! You’ll learn the 
 
 ## License
 
-The **code** is this repo is licensed under the Apache 2.0 license.
+The **code** in this repo is licensed under the Apache 2.0 license.
 
-The **content** is this repo is licensed under the CC-BY-NC-4.0 license.
+The **content** in this repo is licensed under the CC-BY-NC-4.0 license.
